@@ -1,18 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Timers and Intervals</title>
-</head>
-<body>  
-    <h1 class="time" style="text-align:center;"></h1>
-    <div id="main"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+  </head>
+  <body>
+    <div class="highscorebtn"></div>
+    <header>
+      <div>
+        <a href="./highscore.html">
+          <button class="highscore-header" id="view-high-scores">
+            View High Scores
+          </button>
+        </a>
+      </div>
 
-    <button id="startQuizBtn">Start Quiz!</button>
-    <div id="questionContainer"></div>
+      <div class="timer">
+        <p>
+          Time remaining:
+          <span id="timer"> 0 </span>
+        </p>
+      </div>
+    </header>
+    <main class="quiz">
+      <div id="quiz-start">
+        <div class="landing" id="start-screen">
+          <h1>Coding Quiz</h1>
+          <p>Click Start Quiz to begin!</p>
+          <button id="startQuizBtn">Start Quiz</button>
+        </div>
+      </div>
+
+<div class ="hide" id="questions">
+    <!-- <h2 id="question-words"></h2>
+    <div class="options" id="options">
+    </div> -->
+</div>
+
+<div class="hide" id="quiz-end"
+<h1>Time's up!</h1>
+<p>Your Scores
+    <span id="score-final"></span>
+</p>
+
+
+
+    </main>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
