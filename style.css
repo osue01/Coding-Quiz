@@ -1,7 +1,7 @@
 /* Style.css */
 
 * {
-	font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .quiz,
@@ -11,7 +11,7 @@
 }
 
 #top {
-	color: green;
+	color: palevioletred;
 }
 
 .containerNew {
@@ -43,6 +43,7 @@ p {
 	position: absolute;
 	top: 15px;
 	right: 15px;
+	color: red
 }
 
 button {
@@ -50,14 +51,14 @@ button {
 	margin: 10px;
 	cursor: pointer;
 	color: #fff;
-	background-color: #52865a;
+	background-color: palevioletred;
 	border-radius: 5px;
 	border: 0;
 	padding: 20px;
 }
 
 button:hover {
-	background-color: #2a8d12;
+	background-color: palevioletred;
 }
 
 .options button {
